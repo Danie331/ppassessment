@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+    {
+      "library": "src/app/lib/wicket/",
+      "destination": "src/app/lib/wicket/wicket/"
+    }
+  ]
+}

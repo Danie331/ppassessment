@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A5E9B171-8851-42D3-8761-BB7E73F908B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{47706618-FA0C-4579-B6AE-95B07725008E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{A489A593-1E23-4904-8AB7-5BA69F482160}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "gmap-project", "FrontEnd\gmap-project\", "{837BEFDA-6225-4145-9E02-F3FC42CFCEFE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56781"
+		Debug.AspNetCompiler.PhysicalPath = "FrontEnd\gmap-project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56781\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56781"
+		Release.AspNetCompiler.PhysicalPath = "FrontEnd\gmap-project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56781\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56781"
+		SlnRelativePath = "FrontEnd\gmap-project\"
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PolygonDatabase", "PolygonDatabase\PolygonDatabase.sqlproj", "{86AD5F84-1009-4A81-9905-93DC3B2EC260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonProp.DAL", "PolygonProp.DAL\PolygonProp.DAL.csproj", "{8AEEBC5C-51FD-408E-92A0-0644FC559B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonProp.Model", "PolygonProp.Model\PolygonProp.Model.csproj", "{4F340BC9-EDE4-46C9-A978-6609C7378B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonProp.PolygonApi", "PolygonProp.PolygonApi\PolygonProp.PolygonApi.csproj", "{AB6E8F08-24CD-4F37-B179-E125D1AFDC88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{837BEFDA-6225-4145-9E02-F3FC42CFCEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837BEFDA-6225-4145-9E02-F3FC42CFCEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837BEFDA-6225-4145-9E02-F3FC42CFCEFE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{837BEFDA-6225-4145-9E02-F3FC42CFCEFE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8AEEBC5C-51FD-408E-92A0-0644FC559B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEEBC5C-51FD-408E-92A0-0644FC559B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEEBC5C-51FD-408E-92A0-0644FC559B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEEBC5C-51FD-408E-92A0-0644FC559B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F340BC9-EDE4-46C9-A978-6609C7378B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F340BC9-EDE4-46C9-A978-6609C7378B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F340BC9-EDE4-46C9-A978-6609C7378B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F340BC9-EDE4-46C9-A978-6609C7378B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6E8F08-24CD-4F37-B179-E125D1AFDC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6E8F08-24CD-4F37-B179-E125D1AFDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6E8F08-24CD-4F37-B179-E125D1AFDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6E8F08-24CD-4F37-B179-E125D1AFDC88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{837BEFDA-6225-4145-9E02-F3FC42CFCEFE} = {A489A593-1E23-4904-8AB7-5BA69F482160}
+		{86AD5F84-1009-4A81-9905-93DC3B2EC260} = {47706618-FA0C-4579-B6AE-95B07725008E}
+		{8AEEBC5C-51FD-408E-92A0-0644FC559B94} = {47706618-FA0C-4579-B6AE-95B07725008E}
+		{AB6E8F08-24CD-4F37-B179-E125D1AFDC88} = {A5E9B171-8851-42D3-8761-BB7E73F908B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {623DAEA8-45A7-4BA6-8D02-ACC386455820}
+	EndGlobalSection
+EndGlobal
