@@ -8,7 +8,7 @@ import { Polygon } from '../gmap-container/gmap-container.component';
 @Injectable({ providedIn: 'root' })
 export class PolygonService {
 
-  baseURL: string = "https://localhost:44315/polygonservice/";
+  baseURL: string = "https://polygonprop.azurewebsites.net/polygonservice/";
 
   constructor(private client: HttpClient) { }
 
