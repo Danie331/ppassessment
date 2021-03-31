@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": "dist\\gmap-project",
+    "appService.defaultWebAppToDeploy": "/subscriptions/2732f636-d087-4ad0-a44d-79db4cbcecb3/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/gmap-project"
+}
