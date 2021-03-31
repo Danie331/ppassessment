@@ -2,15 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>50871546-074f-4856-93f8-88e4d1ecf350</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.AzureAppServices.HostingStartup" Version="3.1.13" />
+    <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="3.1.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.13">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="3.1.13" />
     <PackageReference Include="NSwag.AspNetCore" Version="13.10.8" />
   </ItemGroup>
 

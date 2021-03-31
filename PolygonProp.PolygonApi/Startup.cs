@@ -50,9 +50,10 @@ namespace PolygonProp.PolygonApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseOpenApi();
-                app.UseSwaggerUi3();
             }
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseCors(_corsDefault);
 
